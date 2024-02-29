@@ -208,7 +208,7 @@
 
       v(0.8em)
       text(13pt, strong({
-        it.body
+        link(it.element.location())[#it.body]
         h(1fr)
         [#heading_page]
       }))
